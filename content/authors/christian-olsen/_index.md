@@ -18,7 +18,7 @@ organizations:
   url: "https://qmi.ubc.ca"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include bla bla bla ...
+bio:
 
 interests:
 - Quantum Transport
