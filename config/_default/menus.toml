@@ -30,7 +30,7 @@
 
 [[main_right]]
   name = ""
-  url = "links/internallink/"
+  url = "resources/internallink/"
   pre = "<i class='fa fa-link'></i>"
   weight = 10
 

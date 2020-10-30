@@ -16,6 +16,8 @@ ul.link-icon {
 
 .link-icon li {
   margin-bottom: 20px;
+  margin-left: 40px;
+  position: relative;
 }
 
 .link-icon li:last-of-type {
@@ -23,5 +25,9 @@ ul.link-icon {
 }
 
 .link-icon li:hover {
-  transform: scale(1.1)
+  transform: scale(1.05);
+}
+
+span.internallink {
+  padding-left: 15px;
 }
