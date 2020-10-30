@@ -3,7 +3,7 @@
 
 title: "Anomalous Metal in Failed Superconductors"
 summary: ""
-authors: [josh-folk]
+authors: []
 tags: []
 categories: []
 date: 2020-10-16T10:00:00-07:00

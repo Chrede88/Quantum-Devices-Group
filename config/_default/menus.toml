@@ -28,6 +28,12 @@
   url = "#contact"
   weight = 50
 
+[[main_right]]
+  name = ""
+  url = "links/internallink/"
+  pre = "<i class='fa fa-link'></i>"
+  weight = 10
+
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]

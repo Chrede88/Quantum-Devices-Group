@@ -3,3 +3,25 @@ footer {
   padding: 0rem 0;
   width: 100%;
 }
+
+ul.link-icon {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-icon li {
+  margin-bottom: 20px;
+}
+
+.link-icon li:last-of-type {
+  margin-bottom: 0;
+}
+
+.link-icon li:hover {
+  transform: scale(1.1)
+}

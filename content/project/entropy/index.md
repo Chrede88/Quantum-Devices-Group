@@ -1,9 +1,9 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Entropy in Mesoscopic Qnantum Systems"
+title: "Entropy in Mesoscopic Quantum Systems"
 summary: ""
-authors: [josh-folk]
+authors: []
 tags: []
 categories: []
 date: 2020-10-16T11:00:00-07:00
