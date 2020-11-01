@@ -154,7 +154,7 @@ reading_time = false
 
 # Display next/previous section pager? (true/false)
 section_pager = false
-docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
+book_section_pager = true  # Display pager in book layout
 
 # Enable in-built social sharing buttons? (true/false)
 sharing = false
@@ -237,7 +237,7 @@ plugins_js  = []
   #   0: No search engine
   #   1: Academic (built-in)
   #   2: Algolia (https://www.algolia.com)
-  engine = 0
+  engine = 1
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
@@ -267,7 +267,7 @@ plugins_js  = []
   #   3: OpenStreetMap (Mapbox)
   engine = 2
   api_key = ""
-  zoom = 17
+  zoom = 14
 
 ############################
 ## Marketing

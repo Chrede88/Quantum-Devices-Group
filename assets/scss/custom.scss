@@ -16,7 +16,7 @@ ul.link-icon {
 
 .link-icon li {
   margin-bottom: 20px;
-  margin-left: 40px;
+  margin-left: 45px;
   position: relative;
 }
 
@@ -30,4 +30,14 @@ ul.link-icon {
 
 span.internallink {
   padding-left: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-last {
+  margin-left: auto;
 }
