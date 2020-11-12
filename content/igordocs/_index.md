@@ -1,6 +1,5 @@
 ---
-title: Igor Acquicition Software
+title: ScanController Data Acquisition
 type: book  # Do not modify.
 toc: false
 ---
-General statement about the documentation ...

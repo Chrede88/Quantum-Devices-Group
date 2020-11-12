@@ -29,16 +29,20 @@
   weight = 50
 
 [[main_right]]
+  identifier = "links"
   name = ""
   url = "resources/internallink/"
   pre = "<i class='fa fa-link'></i>"
   weight = 10
+  post = "Useful internal links"
 
 [[main_right]]
-  name = " "
+  identifier = "docs"
+  name = ""
   url = "igordocs/"
   pre = "<i class='fa fa-file-code'></i>"
   weight = 20
+  post = "Igor docs"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

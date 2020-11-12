@@ -2,6 +2,8 @@
 # Display name
 title: Christian Olsen
 
+weight: 2
+
 # Username (this should match the folder name)
 authors:
 - "christian-olsen"

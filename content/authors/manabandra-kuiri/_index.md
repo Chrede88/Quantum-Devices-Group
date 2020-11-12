@@ -2,6 +2,8 @@
 # Display name
 title: "Manabandra Kuiri"
 
+weight: 1
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "manabandra-kuiri"

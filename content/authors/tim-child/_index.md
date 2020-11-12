@@ -2,9 +2,11 @@
 # Display name
 title: "Tim Child"
 
+weight: 1
+
 # Username (this should match the folder name and the name on publications)
 authors:
-- "tim-child"
+- "child-tim"
 
 # Is this the primary user of the site?
 superuser: false
