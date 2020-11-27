@@ -1,0 +1,10 @@
+{{ if not .IsHome }}
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      {{ partial "breadcrumbHelp" . }}
+      <li class="breadcrumb-item active" aria-current="page">
+        {{.Title}}
+      </li>
+    </ol>
+  </nav>
+{{ end }}
