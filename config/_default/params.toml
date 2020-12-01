@@ -80,6 +80,8 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 # Show related content at the bottom of pages?
 show_related = {docs = false, page = false, post = false, project = false, publication = false, talk = false}
 
+breadcrumb = true
+
 ############################
 ## Contact details
 ##

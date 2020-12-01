@@ -1,5 +1,8 @@
 {{ $current_page := . }}
 
+{{/* Add breadcrumb to pages */}}
+{{ $breadcrumb := site.Params.breadcrumb | default false }}
+
 <div class="container-fluid docs">
   <div class="row flex-xl-nowrap">
     <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
@@ -24,7 +27,10 @@
       <article class="article">
 
         <div class="docs-article-container">
-          {{ partial "breadcrumb" . }}
+          {{ if $breadcrumb }}
+            {{ partial "breadcrumb" $current_page }}
+          {{ end }}
+
           <h1>{{ .Title }}</h1>
 
           <div class="article-style">
@@ -35,7 +41,7 @@
 
           {{/* Show next/previous pages by default. */}}
           {{ if ne site.Params.book_section_pager false }}
-          <div>
+          <div class="article-widget">
             {{ partial "section_pager" . }}
           </div>
           {{ end }}
