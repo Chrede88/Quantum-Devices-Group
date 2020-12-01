@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://chrede88.github.io/starter-academic/sitemap.xml
+Sitemap: https://chrede88.github.io/Quantum-Devices-Group/sitemap.xml
